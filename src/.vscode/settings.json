@@ -1,0 +1,22 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E203, W503, W504",
+        // E203: ":"の前の空白を入れないルール
+        // W503: 演算子の前に改行しないようにするルール
+        "--max-line-length=120",
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "mypy.configFile": ".vscode/mypy.ini",
+    "editor.parameterHints.cycle": false,
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.hover.sticky": false,
+    "autoDocstring.docstringFormat": "google",
+}

@@ -1,0 +1,4 @@
+name: stockpred
+entry_points:
+    main:
+        command: "python ch01.py"
