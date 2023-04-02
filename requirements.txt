@@ -7,3 +7,5 @@ isort==5.12.0
 flake8==6.0.0
 pipdeptree==2.7.0
 mypy==1.1.1
+yfinance==0.2.14
+virtualenv==20.21.0
